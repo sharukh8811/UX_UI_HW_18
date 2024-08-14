@@ -1,78 +1,73 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
- 
 <body>
-    <header>
-        <ul>
-            <li>Connect</li> 
-            <li><a href="myuxuiskills.html">myuxuiskills</a></li> 
-            <li>About Me</li>
-        </ul>   
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav>
+            <button class="nav-button">Connect</button> 
+            <a href="myuxuiskills.html"><button class="nav-button">My Work</button> </a>
+            <button class="nav-button">About Me</button>
+        </nav>
     </header>
 
-<section>
-    c thereshouldbealinkhere; <a href="myuxuiskills.html">myuxuiskills</a>
-</section>
+    <!-- Banner Section with Two Images -->
+    <section class="banner-section">
+        <div class="banner-image banner-image-top">
+            <img src="Images/Background wallpaper 1.png" alt="Top Image">
+        </div>
+        <div class="banner-image banner-image-bottom">
+            <img src="Images/Background wallpaper 2.png"Bottom Image">
+        </div>
+    </section>
 
-<section></section>
-
-<section class="quote-section">
+    <!-- Quote Section -->
+    <section class="quote-section">
         <blockquote>
             "Designing intuitive experiences that transform ideas into interactive realities."
         </blockquote>
     </section>
 
-<section class="portfolio-section">
-        <div class="portfolio-box">
-            <a href="case-study-1.html">
-                <img src="Images/case study 1.png" alt="Phone Prototype 1">
-            </a>
-        </div>
-        <div class="portfolio-box">
-            <a href="case-study-2.html">
-                <img src="laptop-prototype-1.jpg" alt="Laptop Prototype 1">
-            </a>
-        </div>
-        <div class="portfolio-box">
-            <a href="case-study-3.html">
-                <img src="phone-prototype-2.jpg" alt="Phone Prototype 2">
-            </a>
-        </div>
-        <div class="portfolio-box">
-            <a href="case-study-4.html">
-                <img src="laptop-prototype-2.jpg" alt="Laptop Prototype 2">
-            </a>
-        </div>
-
-     <!-- Contact Form Section -->
-     <section class="contact-form-section">
-        <h2>Contact Us</h2>
-        <form action="/submit-form" method="post">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+    <!-- My Work Section -->
+    <section class="my-work">
+        <h2>My Work</h2>
+        <div class="work-container">
+            <div class="work-item" id="project1">
+                <h3>Easter Seals</h3>
+                <p>Mobile | Desktop</p>
+                <img src="Images/eastersealsmobile.png" alt="Easter Seals Project">
+                <button>View Project</button>
             </div>
-            <div class="form-group">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+            <div class="work-item" id="project2">
+                <h3>Department of Energy</h3>
+                <p>Mobile | Desktop</p>
+                <img src="Images/departmentofenergy.png"Department of Energy Project">
+                <button>View Project</button>
             </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+            <div class="work-item" id="project3">
+                <h3>Project Title 3</h3>
+                <p>Mobile | Desktop</p>
+                <img src="Images/CInverse.png" alt="Project 3">
+                <button>View Project</button>
             </div>
-            <button type="submit">Submit</button>
-    
-        <footer>
-            <p>Contact me at: <a href="mailto:sharukh8811@yahoo.com">sharukh8811@yahoo.com</a></p>
-        </footer>
+            <div class="work-item" id="project4">
+                <h3>Project Title 4</h3>
+                <p>Mobile | Desktop</p>
+                <img src="Images/Travelquest.png" alt="Project 4">
+                <button>View Project</button>
+            </div>
+        </div>
     </section>
-</section>
+    
+    <footer class="footer">
+        <p>Contact: <a href="mailto:sharukh8811@yahoo.com">sharukh8811@yahoo.com</a></p>
+    </footer>
+    
 </body>
 </html>
